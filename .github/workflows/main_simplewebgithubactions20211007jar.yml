@@ -8,6 +8,12 @@ on:
     branches:
       - main
   workflow_dispatch:
+  
+  
+defaults:
+  run:
+    working-directory: ./SimpleWebAssemblyApp
+    
 
 jobs:
   build:
